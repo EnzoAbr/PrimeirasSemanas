@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoeApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <style>
+        body {
+            background-image: url(Figma\ _\ File\ Cover\ image.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <div>
+        <img src="Logo-removebg-preview.png" alt="">
+    </div>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="social-icons">
+                <img src="fb.png">
+                <img src="gp.png">
+                <img src="tw.png">
+
+            </div>
+            <button type="submit">Entrar</button>
+            <p class="signup-link">Não tem uma conta? <a href="register.html">Cadastre-se</a></p>
+        </form>
+    </div>
+</body>
+</html>
