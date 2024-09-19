@@ -1,0 +1,39 @@
+#corpo {
+    background-color: rgb(255, 239, 220);
+}
+
+.autor {
+    color: black
+}
+
+#data {
+    color: grey;
+}
+
+.topico1 {
+    color: rgb(235, 143, 143)
+}
+
+.topico2 {
+    color: rgb(235, 143, 143)
+}
+
+.topico3 {
+    color: rgb(235, 143, 143)
+}
+
+#topico {
+    text-align: right;
+}
+
+article {
+    text-align: center;
+}
+
+#descriçã0 {
+    text-align: center;
+}
+
+#cap {
+    align-items: center;
+}
