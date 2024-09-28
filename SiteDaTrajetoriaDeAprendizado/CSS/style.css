@@ -1,3 +1,13 @@
+p {
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+#introdução {
+    align-items: center;
+}
+
 #corpo {
     background-color: rgb(255, 239, 220);
 }
@@ -6,20 +16,34 @@
     color: black
 }
 
-#data {
+.data {
+
     color: grey;
+
+    margin-left: 680px;
+
+}
+
+#links {
+    font-style: oblique;
+    font-size: x-large;
+}
+
+.topicos {
+    margin-left: 10px;
+
 }
 
 .topico1 {
-    color: rgb(235, 143, 143)
+    color: rgba(255, 0, 0, 0.5)
 }
 
 .topico2 {
-    color: rgb(235, 143, 143)
+    color: rgba(255, 0, 0, 0.5)
 }
 
 .topico3 {
-    color: rgb(235, 143, 143)
+    color: rgba(255, 0, 0, 0.5)
 }
 
 #topico {
@@ -27,13 +51,46 @@
 }
 
 article {
-    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-#descriçã0 {
+#descrição {
     text-align: center;
 }
 
 #cap {
-    align-items: center;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+}
+
+.linha {
+    width: 1400px;
+    height: 6px;
+    background-color: black;
+    border: none;
+
+    border-radius: 30px;
+
+    margin-left: 10px;
+}
+
+.socialismo {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+}
+
+.capVSsoc {
+    display: block;
+    margin: 20px auto;
+    height: 400px;
+    width: 800px
+}
+
+#titulos {
+    text-align: center;
 }
