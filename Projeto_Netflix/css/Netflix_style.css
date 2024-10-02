@@ -1,17 +1,81 @@
 h1 {
+    display: flex;
+
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
     font-size: 45px;
-    margin-left: 30px;
+    margin-left: 120px;
+    justify-content: flex-start;
+    margin-top: 13px;
+    letter-spacing: 2px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.5),
+        4px 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
 }
 
-#botao {
-    display: flex;
-
-
-
-}
 
 button {
+    position: absolute;
+    top: 13px;
+    padding: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    right: 120px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    border-radius: 3.8px;
+    border-color: red;
+}
+
+.txt1 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: rgb(255, 242, 242)
+}
+
+.txt2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 21.5px;
+    top: 73px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 242, 242);
+    border-color: black;
+}
+
+.txt3 {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 77px;
+    font-size: 21.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 242, 242)
+}
+
+.email {
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
     padding: 10px;
+    border-radius: 5px;
+    border-color: black;
+
+}
+
+body {
+    background-image: url(../Pics_for_Netflix/stranger-things-background-czgto.png);
 }
