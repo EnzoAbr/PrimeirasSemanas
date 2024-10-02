@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <main>
         <section>
             <header>
@@ -17,7 +18,7 @@
                 <h1 id="logo">NETFLIX</h1>
 
 
-                <nav><button class="botao">Entrar</button></nav>
+                <nav><button id="botao" class="shake">Entrar</button></nav>
 
             </header>
         </section>
@@ -26,11 +27,13 @@
                 <p class="txt1">Filmes, séries e muito mais.<br>Sem limites.</p>
                 <p class="txt2">Assista onde quiser, cancele quando quiser.</p>
                 <p class="txt3">Pronto para assistir? Informe seu e-mail para criar ou reiniciar sua conta.</p>
-                <input class="email" placeholder="EMAIL" type="email">
+                <label for="email">Email:</label>
+                <input id="email" placeholder="EMAIL" type="email">
             </article>
         </section>
 
     </main>
+    <script src="../js/Netflix.js"></script>
 </body>
 
 </html>

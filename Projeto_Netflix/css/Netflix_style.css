@@ -64,7 +64,7 @@ button {
     color: rgb(255, 242, 242)
 }
 
-.email {
+#email {
     position: relative;
     top: 100px;
     left: 50%;
@@ -78,4 +78,30 @@ button {
 
 body {
     background-image: url(../Pics_for_Netflix/stranger-things-background-czgto.png);
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -5px;
+    }
+
+    50% {
+        margin-left: 5px;
+    }
+
+    75% {
+        margin-left: -5px;
+    }
+
+    100% {
+        margin-left: 0;
+    }
 }
