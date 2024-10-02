@@ -1,0 +1,17 @@
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 45px;
+    margin-left: 30px;
+}
+
+#botao {
+    display: flex;
+
+
+
+}
+
+button {
+    padding: 10px;
+}
