@@ -1,6 +1,7 @@
 var button = document.getElementById("botao");
 var emailField = document.getElementById("email");
 
+
 button.addEventListener("click", function () {
     if (emailField.value === "") {
         emailField.classList.add("shake");
