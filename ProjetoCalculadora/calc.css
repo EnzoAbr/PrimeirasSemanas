@@ -38,9 +38,9 @@ button {
     padding: 10px;
     border-color: rgb(0, 0, 0);
     border-radius: 50px;
-    justify-items: center;
+
     border-width: 0px;
-    cursor: pointer;
+    cursor: grab;
     color: white
 }
 
@@ -48,6 +48,8 @@ button:hover {
     transform: scale(1.010);
     box-shadow: 0 0 2px rgb(247, 250, 232)
 }
+
+
 
 button.igual {
     position: relative;
